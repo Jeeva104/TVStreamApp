@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Stream</string>
+    <string name="video_thumbnail">Video thumbnail</string>
+    <string name="loading">Loading…</string>
+    <string name="playback_error">Playback error occurred</string>
+    <string name="network_error">Network connection failed</string>
+    <string name="category_movies">Movies</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_news">News</string>
+</resources>

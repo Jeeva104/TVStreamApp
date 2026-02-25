@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Theme.TVStream – base theme extending Leanback for TV optimisation.
+        Leanback must be the base for BrowseSupportFragment to work correctly.
+    -->
+    <style name="Theme.TVStream" parent="Theme.Leanback">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:colorPrimary">@color/brand_color</item>
+        <item name="android:colorAccent">@color/brand_color</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <!-- Hardware acceleration already applied at Application level -->
+        <item name="android:hardwareAccelerated">true</item>
+    </style>
+
+    <!--
+        Theme.TVStream.Player – fullscreen no-action-bar theme for PlayerActivity.
+        Extends base so it inherits Leanback compat colours.
+    -->
+    <style name="Theme.TVStream.Player" parent="Theme.TVStream">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:keepScreenOn">true</item>
+    </style>
+
+    <!--
+        Theme.TVStream.Phone – AppCompat-compatible theme for phone-specific
+        activities/fragments (if needed in future). Currently MainActivity uses
+        Theme.TVStream which Leanback requires, and that works fine on phones too.
+    -->
+    <style name="Theme.TVStream.Phone" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorPrimary">@color/brand_color</item>
+        <item name="colorPrimaryDark">@color/brand_color_dark</item>
+        <item name="colorAccent">@color/brand_color</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+</resources>

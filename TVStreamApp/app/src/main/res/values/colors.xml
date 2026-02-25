@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Brand / Accent ──────────────────────────────────────────── -->
+    <!-- Main brand color – used for Leanback header, card highlights -->
+    <color name="brand_color">#E50914</color>       <!-- Netflix Red -->
+    <color name="brand_color_dark">#B20710</color>
+
+    <!-- ── Backgrounds ────────────────────────────────────────────── -->
+    <color name="background_dark">#141414</color>
+    <color name="card_background">#1E1E1E</color>
+
+    <!-- ── Text ───────────────────────────────────────────────────── -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+
+    <!-- ── Focus highlight ────────────────────────────────────────── -->
+    <color name="focus_border">#E50914</color>
+    <color name="focus_overlay">#33E50914</color>   <!-- 20% opacity red -->
+</resources>
